@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="id_form">
+        <form action="">
+            <div id="onediv">
+                <label>Nro: <input type="text" placeholder="001" id="idnumero"></label>
+                <label>Ubicacion: <input type="text" id="idubicacion"></label><br>
+                <label>Cliente: <input type="text" id="idcliente"></label>
+                <label>DNI: <input type="text" id="iddni"></label>
+            </div>
+            <div id="twodiv">
+                <label>Tipo: <select name="Tipo" id="id_tipo">
+                    <option value="Grande">Grande</option>
+                    <option value="Mediano">Mediano</option>
+                    <option value="Suit">Suit_Presidencial</option>
+                </select></label>
+                <label>N° Personas: <input type="text" id="idcantidad"></label><br>
+                <span id="idspan">
+                        <input type="button" value="Reset" id="idreset" onclick="reset();">
+                        <input type="button" value="Guardar" id="idguardar" onclick="guardar();">
+                        </span>
+            </div>   
+        </form>
+    </div>
+    <div id="idtabla12">
+        <div id="sub_tabla1">
+                <table id="tabla1">
+                        <thead>
+                            <th>Nombre</th>
+                            <th>DNI</th>
+                            <th>Fecha</th>
+                            <th>Ubicacion</th>
+                        </thead>
+                        <tbody>
+            
+                        </tbody>
+                    </table>
+        </div>
+            
+        <div id="sub_tabla2">
+                <table id="tabla2">
+                        <thead>
+                            <th>#</th>
+                            <th>Habitacion</th>
+                            <th>Costo</th>
+                            <th>Calidad</th>
+                            <th>Action</th>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+        </div>
+               
+                
+    </div>
+    <script src="pro.js"></script>
+</body>
+</html>
